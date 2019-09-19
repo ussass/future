@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+header{
+	background: #F9F9F9;
+	height: 190px;
+	
+}
+.mid{
+	width: 1000px;
+	margin: 0 auto;
+}
+.leftblock{
+	float: left;
+	position: absolute;
+}
+.leftblock h1{
+	top: 140px;
+	position: absolute;
+}
+.rightblock{
+	float: right;
+}
+.info{
+	padding-top: 17px;
+	font-weight: bold;
+}
+.info p{
+	padding-top: 5px;
+}
+/*-----*/
+.content{
+	padding: 40px 0;
+	background-color: #EEEEEE;
+}
+.comments{
+	border-bottom: 1px solid #E1E1E1;
+}
+.border{
+	margin-bottom: 20px;
+}
+.border h3{
+	display: inline-block;
+}
+.date{
+	display: inline-block;
+}
+.text{
+	padding: 10px 0;
+}
+
+.addcomment{
+	margin-top: 20px;
+}
+.addcomment input, textarea{
+    width: 419px;
+    border-radius: 5px;
+    border: none;
+    /*padding-left: 15px;*/
+}
+.addcomment input{
+    height: 40px;
+	padding: 0 19px;
+}
+
+.addcomment textarea{
+    resize: vertical;
+    height: 130px;
+    padding: 10px 19px;
+}
+
+.addcomment button{
+	height: 40px;
+	width: 130px;
+	font: inherit;
+	color: inherit;
+	background-color: transparent;
+	border: 2px solid black;
+	cursor: pointer;
+	border-radius: 5px;
+	left: 327px;
+	position: relative;
+	transition: 0.3s;
+}
+.addcomment button:hover{
+	color: #EEEEEE;
+	background-color: black;	
+}
+.addcomment p{
+	margin: 20px 0 10px 0;
+}
+
+/*-----*/
+footer{
+	background: #F9F9F9;
+	font-size: small;
+
+}
+.footerLogo{
+	float: left;
+	padding: 20px;
+}
+.footerLogo img{
+	height: 104px;
+}
+.footerInfo{
+	padding: 40px;
+	font-weight: bold;
+}
+.footerInfo p{
+	padding: 2px;
+}
+
+.footerInfo p:last-child{
+	padding-top: 10px;
+	font-weight: normal;
+
+/*-----*/
+
+.clear{
+	clear: both;
+	}
